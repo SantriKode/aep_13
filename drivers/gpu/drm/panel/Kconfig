@@ -81,4 +81,5 @@ config DRM_PANEL_SHARP_LS043T1LE01
 	  Say Y here if you want to enable support for Sharp LS043T1LE01 qHD
 	  (540x960) DSI panel as found on the Qualcomm APQ8074 Dragonboard
 
+source "drivers/gpu/drm/panel/msm8953-generated/Kconfig"
 endmenu
